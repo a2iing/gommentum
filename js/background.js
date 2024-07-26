@@ -12,4 +12,4 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const container = document.querySelector(".container");
 
-container.style.background = `url(../images/${chosenImage}) center / cover`;
+container.style.background = `url(images/${chosenImage}) center / cover`;
