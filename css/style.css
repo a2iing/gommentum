@@ -105,6 +105,7 @@ input[type="text"]:focus {
     font-family: 'Pretendard', sans-serif;
     font-size: 1.6rem;
     padding: 32px;
+    padding-bottom: 72px;
     color: rgb(35,35,45);
     overflow-y: auto;
     overflow-x: hidden;
@@ -359,6 +360,7 @@ footer {
 @media (max-width: 575px) {
     .container {
         padding: 24px;
+        padding-bottom: 64px;
     }
     .flex_wrap > div:nth-child(1) {
         display: block;
