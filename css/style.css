@@ -98,12 +98,14 @@ a:link, a:visited, a:active {color: inherit;}
     font-size: 1.6rem;
     padding: 32px;
     color: rgb(35,35,45);
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .hidden {
     display: none;
 }
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     display: flex;
