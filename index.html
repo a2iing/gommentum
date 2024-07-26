@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gommentum</title>
+</head>
+<body>
+    <section class="container">
+        <div class="grid">
+            <div class="user">
+                <form class="hidden" id="login-form">
+                    <label>Your Name</label>
+                    <input required maxlength="12" type="text" placeholder="What's your name? :&#41;">
+                    <button>로그인</button>
+                </form>
+                <div class="hello hidden">
+                    <img src="images/img_hello.png" alt="hello image">
+                    <h1 id="greeting"></h1>
+                </div>
+            </div>
+            <div>
+                <div class="quote">
+                    <img id="random-img">
+                    <div id="quote">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="todo">
+                    <form id="todo-form">
+                        <label>To Do</label>
+                        <input type="text" placeholder="Write a To Do and Press Enter :&#41;" required>
+                    </form>
+                    <ul id="todo-list">
+                    </ul>
+                </div>
+            </div>
+            <div class="clock">
+                <div class="top">
+                    <h3 id="date"></h3>
+                    <h2 id="clock">00:00:00</h2>
+                </div>
+                <div class="bottom" id="weather">
+                    <p></p>
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <span>© 2024. <b>a2iing</b> All Rights Reserved.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All images by <a href="https://blog.naver.com/yurangcorp" target="_blank"><b>YuRang</b></a></span>
+        </footer>
+    </section>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>
