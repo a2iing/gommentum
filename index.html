@@ -8,16 +8,28 @@
 </head>
 <body>
     <section class="container">
-        <div class="grid">
-            <div class="user">
-                <form class="hidden" id="login-form">
-                    <label>Your Name</label>
-                    <input required maxlength="12" type="text" placeholder="What's your name? :&#41;">
-                    <button>로그인</button>
-                </form>
-                <div class="hello hidden">
-                    <img src="images/img_hello.png" alt="hello image">
-                    <h1 id="greeting"></h1>
+        <div class="flex_wrap">
+            <div>
+                <div class="user">
+                    <form class="hidden" id="login-form">
+                        <label>Your Name</label>
+                        <input required maxlength="12" type="text" placeholder="What's your name? :&#41;">
+                        <button>로그인</button>
+                    </form>
+                    <div class="hello hidden">
+                        <img src="images/img_hello.png" alt="hello image">
+                        <h1 id="greeting"></h1>
+                    </div>
+                </div>
+                <div class="clock">
+                    <div class="top">
+                        <h3 id="date"></h3>
+                        <h2 id="clock">00:00:00</h2>
+                    </div>
+                    <div class="bottom" id="weather">
+                        <p></p>
+                        <h3></h3>
+                    </div>
                 </div>
             </div>
             <div>
@@ -37,16 +49,6 @@
                     </form>
                     <ul id="todo-list">
                     </ul>
-                </div>
-            </div>
-            <div class="clock">
-                <div class="top">
-                    <h3 id="date"></h3>
-                    <h2 id="clock">00:00:00</h2>
-                </div>
-                <div class="bottom" id="weather">
-                    <p></p>
-                    <h3></h3>
                 </div>
             </div>
         </div>
