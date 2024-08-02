@@ -5,7 +5,8 @@ const images = [
     "bg_03.png",
     "bg_04.png",
     "bg_05.png",
-    "bg_06.png"
+    "bg_06.png",
+    "bg_07.png"
 ];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
